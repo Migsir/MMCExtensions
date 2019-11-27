@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MMCExtensions</id>
+    <version>1.0.3.2</version>
+    <authors>Jose Miguel Mena, SirMena</authors>
+    <owners>Jose Miguel Mena, SirMena</owners>
+    <licenseUrl>https://github.com/Migsir/MMCExtensions/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Migsir/MMCExtensions</projectUrl>
+    <iconUrl>http://NotAssigned</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      You can use this nuget in the following scenarios:
+      * The class MMEncryptionTripleDES was added
+      * Encrypt and Decrypt Data using the algorithm Triple Des.
+        * Generate a 128 Key to encrypt data.
+        * Encrypt and Decrypt Data based in a Key.
+      * The clase DTExtensions was added
+        * Generate a SQL Table Type script from a DataTable
+        * Transform an Ilist or Lits to datable.
+        * Exclude columns from the List in order to not be included in the datatable.
+      * Export a Generic List to Excel
+      * Export a DataTable to Excel
+      * Create an Excel File from a DataTable or Generic List.
+      * Create a CSV File from a DataTable or Generic List.
+      * Convert a Generic List to a DataTable
+      * Convert a RecordSet to a DataTable.
+      * Get a DataTable from Excel File only the First Sheet.
+      * Fix an string to n quantity of digits.
+    </description>
+    <releaseNotes>
+      * Method to transform
+      * The class MMEncryptionTripleDES was added
+      * Encrypt and Decrypt Data using the algorithm Triple Des.
+      * Generate a 128 Key to encrypt data.
+      * Encrypt and Decrypt Data based in a Key.
+      * The clase DTExtensions was added
+      * Generate a SQL Table Type script from a DataTable
+      * Transform an Ilist or Lits to datable.
+      * Exclude columns from the List in order to not be included in the datatable.
+    </releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Extensions, C#, Lists</tags>
+    <dependencies>
+      <dependency id="EPPlus" version="4.1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\MMCSirUtilities.dll" target="lib" />
+  </files>
+</package>

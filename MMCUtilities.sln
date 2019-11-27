@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMCSirUtilities", "MMCUtilities\MMCSirUtilities.csproj", "{D37F42B0-1AD4-4CEB-B42D-8C5483C53B43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMCUtilities.Test", "MMCUtilities.Test\MMCUtilities.Test.csproj", "{CF4FCF98-41FF-4E5A-8D84-43DD3193FFA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMCUtilities.Web.Test", "MMCUtilities.Web.Test\MMCUtilities.Web.Test.csproj", "{7A7C7F04-8E33-4DAD-B4C9-44C6839B5690}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D37F42B0-1AD4-4CEB-B42D-8C5483C53B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D37F42B0-1AD4-4CEB-B42D-8C5483C53B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D37F42B0-1AD4-4CEB-B42D-8C5483C53B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D37F42B0-1AD4-4CEB-B42D-8C5483C53B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF4FCF98-41FF-4E5A-8D84-43DD3193FFA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4FCF98-41FF-4E5A-8D84-43DD3193FFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4FCF98-41FF-4E5A-8D84-43DD3193FFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4FCF98-41FF-4E5A-8D84-43DD3193FFA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7C7F04-8E33-4DAD-B4C9-44C6839B5690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7C7F04-8E33-4DAD-B4C9-44C6839B5690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7C7F04-8E33-4DAD-B4C9-44C6839B5690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7C7F04-8E33-4DAD-B4C9-44C6839B5690}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {455AC517-4DAE-4E29-981F-EDA387BBEE8D}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://jmiguelmena.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MMCUtilities.Test\\MMCUtilities.Test.csproj
+		SccProjectName1 = MMCUtilities.Test
+		SccLocalPath1 = MMCUtilities.Test
+		SccProjectUniqueName2 = MMCUtilities.Web.Test\\MMCUtilities.Web.Test.csproj
+		SccProjectName2 = MMCUtilities.Web.Test
+		SccLocalPath2 = MMCUtilities.Web.Test
+		SccProjectUniqueName3 = MMCUtilities\\MMCSirUtilities.csproj
+		SccProjectName3 = MMCUtilities
+		SccLocalPath3 = MMCUtilities
+	EndGlobalSection
+EndGlobal
